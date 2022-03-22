@@ -1,6 +1,8 @@
 <header>
     {% if site.logo-motif.enabled and site.logo-motif.src.size > 0 and site.logo-motif.width.size > 0 and site.logo-motif.height.size > 0 %}
-    <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}{{ site.logo-motif.src }}" alt="{{ site.title }}" width="{{ site.logo-motif.width }}" height="{{ site.logo-motif.height }}" /></a>
+    <section class="logo-motif">
+        <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}{{ site.logo-motif.src }}" alt="{{ site.title }}" width="{{ site.logo-motif.width }}" height="{{ site.logo-motif.height }}" /></a>
+    </section>
     {% endif %}
 
     {% if site.logo-title.enabled %}
@@ -12,7 +14,7 @@
     <nav>
         <ul>
             {% for item in site.header-menu %}
-            <li><small><a href="{{ item.url }}">{{ item.name }}</a></small></li>
+            <li><small><a href="{{ item.url }}">{{ item.name }}</a></small></li> <span class="nav-divider">·</span>
             {% endfor %}
         </ul>
     </nav>
