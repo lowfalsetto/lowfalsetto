@@ -38,7 +38,7 @@ site-manifest: '/site.webmanifest'
 # The logo motif
 logo-motif:
   enabled: true
-  src: '/assets/img/YM6uaROH_400x400.png'
+  src: '/assets/img/av1.png'
   width: '400'
   height: '400'
 
