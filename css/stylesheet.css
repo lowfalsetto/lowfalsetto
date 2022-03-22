@@ -273,10 +273,49 @@ header nav ul li a:hover {
   color: #000;
 }
 
+header section.logo-title a {
+  color: transparent;	
+}	
+
 header section.logo-title {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 1.2rem;
+  font-family: 'Palette Mosaic', cursive;
+  font-size: 2.4rem;
   line-height: 1.3;
+  margin-bottom: 10px;	
+		
+  background-image: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+header section.logo-title a:hover {
+  background-image: linear-gradient(45deg, #FC466B 0%, #3F5EFB 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;	
+}
+
+header section.logo-motif img {
+  border-color: #fff;
+  border-radius: 50px;
+}
+
+header section.logo-motif img {
+  max-width: 105px;
+  max-height: 105px;
+  width: auto;
+  height: auto;
+}
+
+.nav-divider {
+  margin: 0 15px;
+	
+}	
+
+.nav-divider:last-child {
+	display: none; 
 }
 
 footer {
